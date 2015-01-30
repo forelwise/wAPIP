@@ -1,0 +1,17 @@
+Window API+[wAPI] Version 0.7 Build 1
+Added:
+*TCanvas - global object is canvas.
+*TResource - for loading resource. See Example/example1.cpp
+*The main form of the application. When it is closed, closes the
+application. Main form - first created form
+* Styles for Form. It is second param. Use W_NORMAL or
+WS_OVERLAPPEDWINDOW for normal window.
+*New methods for TObject. Some work incorrectly.
+Fixed:
+*Crashes app.
+
+Known issues:
+*Some method of TObject work incorrectly
+*Method TResource::GetString is not defined, work incorrectly
+*Messages Message(LPSTR) show without HWND of window.
+*TObject::ToUp, TObject::ToDown work incorrectly
