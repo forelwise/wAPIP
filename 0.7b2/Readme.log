@@ -1,0 +1,20 @@
+Added:
+*Fixed method TResource::GetString.
+2 prototype:
+-TResource::GetString( HINSTANCE, int );
+-TResource::GetString(int);
+First before wapi_init();
+Second after wapi_init();
+*Added method TObject::SetFont( LPSTR );
+Argument: name of font
+*Added method TObject::SetStyle( LONG );
+For changing style of window
+Added method TObject::GetParent( );
+For geting handle of parent
+*Added TObject::~TObject - destructor
+*Some params of class wAPI moved in private
+*Fixed warning in TObject::getText()
+*Fixed problems with TCanvas
+*Added Events for TButton/TEdit/TEditPassword:
+- onFocus
+- onKillFocus
