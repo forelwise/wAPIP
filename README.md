@@ -1,5 +1,5 @@
 
-<h3>Windows API</h3>
+<h3>Windows API+</h3>
 	wAPI+( Windows API+ ) it is lib for creating win32 app. 
 	wAPI is openSource project.
 	wAPI has child-visible-classes: TButton, TEdit, TEditPassword, TMemo and etc.
